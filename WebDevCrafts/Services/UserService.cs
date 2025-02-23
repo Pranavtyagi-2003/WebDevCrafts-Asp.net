@@ -36,8 +36,7 @@ namespace WebDevCrafts.Services
             };
 
             db.Users.Add(newUser);
-            db.SaveChanges();
-            return true;
+            return db.SaveChanges() > 0;
         }
 
         public bool RemoveUser(string userId)
