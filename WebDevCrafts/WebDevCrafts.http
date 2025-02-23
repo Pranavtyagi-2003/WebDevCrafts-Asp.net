@@ -1,0 +1,6 @@
+@WebDevCrafts_HostAddress = http://localhost:5001
+
+GET {{WebDevCrafts_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
