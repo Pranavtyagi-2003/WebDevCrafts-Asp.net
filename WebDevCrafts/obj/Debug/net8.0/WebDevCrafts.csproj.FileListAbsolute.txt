@@ -170,3 +170,4 @@ E:\Full Stack\WebDevCrafts\WebDevCrafts\WebDevCrafts\obj\Debug\net8.0\refint\Web
 E:\Full Stack\WebDevCrafts\WebDevCrafts\WebDevCrafts\obj\Debug\net8.0\WebDevCrafts.pdb
 E:\Full Stack\WebDevCrafts\WebDevCrafts\WebDevCrafts\obj\Debug\net8.0\WebDevCrafts.genruntimeconfig.cache
 E:\Full Stack\WebDevCrafts\WebDevCrafts\WebDevCrafts\obj\Debug\net8.0\ref\WebDevCrafts.dll
+E:\Full Stack\WebDevCrafts\WebDevCrafts\WebDevCrafts\obj\Debug\net8.0\WebDevCrafts.sourcelink.json

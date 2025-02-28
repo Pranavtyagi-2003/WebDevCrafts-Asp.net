@@ -12,8 +12,8 @@ using WebDevCrafts.DbConnections;
 namespace WebDevCrafts.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250223130055_Added new columns")]
-    partial class Addednewcolumns
+    [Migration("20250228145755_Added user table.")]
+    partial class Addedusertable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,7 +31,7 @@ namespace WebDevCrafts.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
@@ -49,7 +49,7 @@ namespace WebDevCrafts.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("UpdatedDate")
+                    b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
